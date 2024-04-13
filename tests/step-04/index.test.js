@@ -29,4 +29,3 @@ test('Execute SQL Query', async () => {
     expect(result[0]).toEqual({ id: '1', name: 'John' });
 });
 
-module.exports=executeSELECTQuery;
